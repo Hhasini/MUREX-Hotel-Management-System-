@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="css/jquery-ui.css" rel="stylesheet">
+		<script src="js/checkAvailability.js"></script>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>checkAvailability</title>
+		<meta name="description" content="">
+		<meta name="author" content="Lihini Avanthika">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+	</head>
+
+	<body>
+		<div >
+	    <img src="image/main1.jpg" height="210" width="1356" style="z-index: -1;position: absolute"/>
+	    <img src="image/slide-bar/murex-hotel logo.png" height="200px" width="530px">
+	    <div class="text">
+       <p class="p3">Be happy for this moment. 
+       	This moment is your life
+</p>
+    </div>
+		</div>
+		<div class="nav">
+	
+	<a class="n1" href="#"> Murex |</a>
+    <a class="n1" href="rooms.html"> Rooms   |</a>
+    <a class="n1" href="#"> Book Now   |</a>
+    <a class="n1" href="#"> Dining   |</a>
+    <a class="n1" href="#"> Photos  &  Videos |</a>
+    <a class="n1" href="#"> Facilities  |</a>
+    <a class="n1" href="#"> Events  &  Meetings  | </a>
+    <a class="n1" href="#"> FAQ </a>   			
+			
+</div>
+		<div align="center" style="padding-top: 50px">		
+		<form name="f4">
+				<table style="border: solid;border-color: white;background:#B0C4DE ;margin-left:20px"width="950" height="100">
+					<tr style="color:#483D8B "><th align="left" colspan="3" style="font-size: 20px;text-decoration: underline">Your Period of Stay at MUREX BEACH HOTEL</th></tr>
+					<tr style="color:#483D8B">
+						<td>Check-in</td>
+						<td>Check-out</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><input type="text" class="datepicker" id="check-in"></td>
+						<td><input type="text" class="datepicker" id="check-out"></td>
+						<td><input type="button" name"check" value="Check Availability" style="background-color:#483D8B;color: white " onclick="loadAvailabilityDetails()"></td>
+					</tr>
+				</table>
+			</form>
+		</div>
+		<br>
+		<br>
+		<div id='results' align="center" style="padding-top: 50px"><b>Results</b><br /><br /></div>
+		<div class="footer">
+			
+			TEL : +96123345567 <br>
+			
+			Email : @murex.com
+			<br><br>
+			
+			
+			<div class="i1">
+			<img src="image/icons/fb.jpg" width="40px" height="40px">
+            <img src="image/icons/tweeter.jpg" width="40px" height="40px">
+			<img src="image/icons/youtube.jpg" width="40px" height="40px">
+
+			
+			</div>
+			&copy; copyright 2014 murex.com.All Rights Reserved.
+		</div>
+		
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery-ui.js"></script>
+		<script>
+		
+		$( ".datepicker" ).datepicker({
+			
+		});
+		
+		</script>			
+	</body>
+</html>

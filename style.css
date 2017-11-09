@@ -1,0 +1,168 @@
+/*.container{
+	width:1356px;
+	height:50px;
+	padding:20px;
+	border:1px solid gray;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+        background-color:black;
+        color:white;
+        font-size: 20px;
+        text-decoration: none;
+}*/
+.container{
+	width:1340px;
+	height:400px;
+	padding:10px;
+	border:1px solid gray;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+  background:black;
+ }
+/* Begin Navigation Bar Styling */
+  /* #nav {
+      width: 100%;
+      float: left;
+      margin: 0 0 3em 0;
+      padding: 0;
+      list-style: none;
+      background-color: #F5DEB3;
+      border-bottom: 1px solid #F4A460; 
+      border-top: 1px solid #F4A460; }
+   #nav li {
+   	  text-align: center;
+   	  width: 20%;
+      float: left; }
+   #nav li a {
+      display: block;
+      padding: 8px 15px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #D2691E;
+      border-right: 1px solid #F4A460; }
+   #nav li a:hover {
+      color: #800000;
+      background-color: #F4A460; }*/
+   /* End navigation bar styling. */
+  
+.image-slider-wrapper{
+	overflow: hidden;
+}
+#image_slider{
+	
+	width:1360px;
+
+	position: relative;
+	overflow: hidden;
+	height: 330px;
+	padding:0;
+	left:0;
+}
+#image_slider li{
+	position:relative;
+	max-width: 100%;
+	float:left;
+	list-style: none;
+	left: 0;
+	
+
+	
+	
+}
+
+
+
+
+
+
+/*nav bar*/
+.n1{float:left;
+	font-family:"Century Gothic";
+	color:white;
+	font-weight:300;
+	font-size:30px;
+	text-decoration:none;
+    
+	}
+	
+
+	
+.nav{
+	
+	height: 40px;
+	width:1356px;
+	background-color:#708090;
+  
+	
+}
+
+.n2{
+	font-family:"Century Gothic";
+	color:white;
+	font-weight:400;
+	font-size:25px;
+	background-color:black;
+	text-decoration: none;
+}
+
+
+
+
+/*logo*/
+
+.logo{
+	float:left;
+	width: 330px;
+	height: 400px;
+	
+	
+	}
+
+
+
+
+/*contact us*/
+
+.footer{
+	width:1356px;
+	height: 150px;
+	margin-left: 10px;
+	padding: 8px;
+	color:red;
+	text-align:center;
+	background-color:	#D3D3D3;
+}
+
+
+
+
+.p2 {
+   position: absolute;
+   top: 200px;
+   left: 0;
+   font-size:50px;  
+   margin-left:700px;
+   width: 600px;
+   height: 40px;
+   color:yellow;
+   font-family:"Edwardian Script ITC";
+   font-weight: 300px;
+   
+   
+}
+.p3 {
+   position: absolute;
+   top: 45px;
+   left: 0;
+   font-size:50px;  
+   margin-left:700px;
+   width: 600px;
+   height: 40px;
+   color:yellow;
+   font-family:"Edwardian Script ITC";
+   font-weight: 300px;
+   
+   
+}

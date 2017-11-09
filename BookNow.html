@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!--<link rel="stylesheet" type="text/css" href="style.css">-->
+		<link rel="stylesheet" type="text/css" href="css/style1.css">
+		<script type="text/javascript" src="script1.js"></script>
+		<link href="css/jquery-ui.css" rel="stylesheet">
+		<script type="text/javascript" src="frmvalid_book.js"></script>
+		<script type="text/javascript" src="totalCost.js"></script>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>BookNow</title>
+		<meta name="description" content="">
+		<meta name="author" content="Lihini Avanthika">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+		
+	</head>
+
+	<body>
+		
+		<div class="logo">
+				<img src="image/slide-bar/murex-hotel logo.png" height="400px" width="330px">
+				
+				</div>
+	<div class="container">	
+		
+				
+		<table>	
+		<tr><td width="150px"><a class="n2" href="aaaaaa.html">Site Map    |</a></td>
+            <td width="550px"><a class="n2" href="Contact Us .html">Contact Us </a> </td>
+            <td>
+
+
+<form method="post" action="javascript:void(0)" onsubmit="search(this); return false;">
+<td>
+        <input type="text" name="srchval" value="">
+        <input type="submit" value="Search">
+</form>
+
+
+
+</td>
+            </tr>	 
+    </table>
+		
+						<div class="image-slider-wrapper">
+			<ul id="image_slider">
+				<li><img src="image/slide-bar/1.jpg" width="1300px" height="400px"></li>
+					<li><img src="image/slide-bar/2.jpg" width="1300px" height="400px"></li>
+					<li><img src="image/slide-bar/3.jpg" width="1300px" height="400px"></li>
+					<li><img src="image/slide-bar/4.jpg" width="1300px" height="400px"></li>
+					<li><img src="image/slide-bar/5.png" width="1300px" height="400px"></li>
+					<li><img src="image/slide-bar/6.jpg" width="1300px" height="400px"></li>
+
+		   </ul>
+		   <div class="text">
+       <p class="p2">Be happy for this moment. 
+       	This moment is your life
+</p>
+    </div>
+    
+    
+</div>
+</div>
+
+<div class="nav">
+	<table>
+			<tr>
+			
+		<td bgcolor="green" width="120px" height="60px">	<a class="n1" href="HOME.html" style="padding-left: 12px;"> Murex </a></td>
+   <td bgcolor="	#ADFF2F" width="140px" height="60px"> <a class="n1" href="rooms.html" style="padding-left: 12px;"> Rooms   </a></td>
+   <td bgcolor="green" width="150px" height="60px"> <a class="n1" href="#" style="padding-left: 12px;"> Book Now   </a></td>
+   <td bgcolor="	#ADFF2F" width="140px" height="60px"> <a class="n1" href="dining.html" style="padding-left: 12px;"> Dining   </a></td>
+   <td bgcolor="green" width="260px" height="60px"> <a class="n1" href="g1.html" style="padding-left: 12px;"> Photos  &  Videos </a></td>
+   <td bgcolor="	#ADFF2F" width="140px" height="60px"> <a class="n1" href="facilities.html" style="padding-left: 12px;"> Facilities  </a></td>
+   <td bgcolor="green" width="290px" height="60px"> <a class="n1" href="Meetings and Events.html" style="padding-left: 12px;"> Meetings & Events </a></td>
+   <td bgcolor="	#ADFF2F" width="100px" height="60px"> <a class="n1" href="faq.html" style="padding-left: 12px;"> FAQ </a>  </td> 
+ 
+ </tr>
+ </table>
+		
+</div>
+
+
+
+		<div align="center" style="clear: both;padding-top: 80px;padding-bottom: 50px">
+			<form name="f1" action="reservationForm.php" onsubmit="return formValidate()" method="post">
+				<table style="border: solid;background-color:#F5F5DC;border-color:#D2691E " height="50" width="1000">
+					<tr align="left" style="background-color: #B8860b;color: white">
+					<td>Check-in Check-out dates and then click book button to choose your Rooms or Villas.</td>
+					<td>CurrencyCurrency<select><option>Select</option>
+				    <option>USD</option>
+				    <option>Euro</option>
+				    <option>British Pound</option>
+			        </select></td>
+			        <td>Language<select><option>Select</option>
+				    <option>American</option>
+				    <option>Albanian</option>
+				    <option>Afrikans</option>
+				    <option>Bengali</option>
+				    <option>Chinese</option>
+				    <option>Danish</option>
+				    <option>Dutch</option>
+			        </select></td>
+					</tr>
+					<th align="left" style="text-decoration: underline">Traval Dates</th>
+					<tr>
+						<td>Arival</td>
+						<td>Depature</td>
+						<td>Nights</td>
+						
+					</tr>
+					<tr>
+						<td><input type="text" class="datepicker" name="in"></td>
+						<td><input type="text" class="datepicker" name="out"></td>
+						<td><select class="nights" name="nights"><option>1</option>
+							        <option>2</option>
+							        <option>3</option>
+							        <option>4</option>
+							        <option>5</option>
+							        <option>6</option>
+							        <option>7</option>
+							        <option>8</option>
+							        <option>9</option>
+							        <option>10</option>
+						</select></td>
+						
+					</tr>
+					
+					<th align="left" style="text-decoration: underline">Number of Rooms and Guest</th>
+					<tr>
+						<td>Rooms Villas</td>
+						<td>Adults</td>
+						<td>Children</td>
+					</tr>
+					<tr>
+						<td><select name="rooms"><option>1</option>
+							        <option>2</option>
+							        <option>3</option>
+							        <option>4</option>
+							        <option>5</option>
+							        <option>6</option>
+							        <option>7</option>
+							        <option>8</option>
+							        <option>9</option>
+							        <option>10</option>
+						</select><input type="text" name="villas" value="0"></td>
+						<td><select name="adults"><option>1</option>
+							        <option>2</option>
+							        <option>3</option>
+							        <option>4</option>
+							        <option>5</option>
+							        <option>6</option>
+							        <option>7</option>
+							        <option>8</option>
+							        <option>9</option>
+							        <option>10</option>
+						</select></td>
+						<td><select name="children"><option>1</option>
+							        <option>2</option>
+							        <option>3</option>
+							        <option>4</option>
+							        <option>5</option>
+							        <option>6</option>
+							        <option>7</option>
+							        <option>8</option>
+							        <option>9</option>
+							        <option>10</option>
+						</select></td>
+					</tr>
+					
+				</table>
+		
+		</div>
+		<div class="a1" align="center">
+		
+		<table width="1000" style="background-color: #F5F5DC" cellspacing="5px">
+			<b><tr style="color: black;background-color: #D2B48C;font-size: 18px">
+				<td>Guest Room</td>
+				<td>Description</td>
+				<td>Average Rate</td>
+			</tr></b>
+			<tr>
+				<td><img src="image/28.jpg" width="150" height="150"></td>
+				<td><b>DELUXE DOUBLE ROOM CITY VIEW</b><br>520 square feet.<br>Stay cool with both individual air conditional and ceiling fans.<br>42"LCD/HD television.<br><a href="Room.html">Read More Details</a>
+				</td>
+			<!--	<td><input type="text" name="ddcv"><br>USD 140.00</td>-->
+			
+				<td><input type="text" id="ddcv" value="0" onkeyup="displayCost();"><br>USD 140.00</td>
+			</tr>
+			<tr>
+				<td><img src="image/40.jpg" width="150" height="150"></td>
+				<td><b>DELUXE DOUBLE ROOM SEA VIEW</b><br>520 square feet.<br>High speed inter net access.<br>Rooms are located near the beach.<br>42" LCD/HD Television.<br><a href="Room.html">Read More Details</a>
+				</td>
+				<td><input type="text" id="ddsv" value="0" onkeyup="displayCost();"><br>USD 165.00</td>
+			</tr>
+			<tr>
+				<td><img src="image/04_premium_deluxe_spa_water_villa_9.jpg" width="150" height="150"></td>
+				<td><b>DELUXE TRIPLE ROOM SEA VIEW</b><br>520 square feet.<br>Arranged tripple bed<br>High speed inter net access.<br>Rooms are located near the beach with a choice of garden and resort views or relaxing sea view.<br>42" LCD/HD Television.<br><a href="Room.html">Read More Details</a>
+				</td>
+				<td><input type="text" id="dtsv" value="0" onkeyup="displayCost();"><br>USD 200.00</td>
+			</tr>
+			
+			<b><tr style="color: black;background-color:#D2B48C;font-size: 18px">
+				<td>Villas</td>
+				<td>Description</td>
+				<td>Average Rate</td>
+			</tr></b>
+			<tr>
+				<td><img src="image/v1.jpg" width="150" height="150"></td>
+				<td><b>BEACH VILLA</b><br>Nestled amidst the vegetation along the pristine white beach,the elegantly designed Beach Villas <br>feature natural wood and stone floring,<br>open air bathroom,private outdoor setting with direct access to the beach.<br><a href="Room.html">Read More Details</a>
+				</td>
+				<td><input type="text" id="bv" value="0" onkeyup="displayCost();"><br>USD 300.00</td>
+			</tr>
+			<tr>
+				<td><img src="image/v2.jpg" width="150" height="150"></td>
+				<td><b>FAMILY BEACH VILLA</b><br>For the convenience our guest families and groups we offer two<br>Beach Villas comprised of two bedrooms.<br><a href="Room.html">Read More Details</a>
+				</td>
+				<td><input type="text" id="fbv" value="0" onkeyup="displayCost();"><br>USD 350.00</td>
+			</tr>
+			<tr>
+				<td><img src="image/vw3.jpg" width="150" height="150"></td>
+				<td><b>DELUXE WATER VILLA</b><br>Aesthetically appointed with breath taking glass floor,the villa feature a combination<br>of natural wood and marble interviors,direct accessto the<br>lagoon and uncompromissed view of the endless blue horizon.<br><a href="Room.html">Read More Details</a>
+				</td>
+				<td><input type="text" id="dwv" value="0" onkeyup="displayCost();"><br>USD 400.00</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><!--input type="button" name="cal" value="TOTAL PRICE" style="background-color:#B8860B;color: white" onclick="displayCost();"--> Total Cost : <input type="hidden" id="cost" name="cost" ><div id="totLabel"> here </div></td>
+				<td><input type="submit" name="book" value="BOOK NOW" style="background-color:#B8860B;color: white" ></td>
+			</tr>
+		</table>	
+	    </div>
+	    </form>
+	    <br>
+	    <br>
+	    <div class="footer">
+			
+			TEL : +96123345567 <br>
+			
+			Email : @murex.com
+			<br><br>
+			
+			
+			<div class="i1">
+			<img src="image/icons/fb.jpg" width="40px" height="40px">
+            <img src="image/icons/tweeter.jpg" width="40px" height="40px">
+			<img src="image/icons/youtube.jpg" width="40px" height="40px">
+
+			
+			</div>
+			&copy; copyright 2014 murex.com.All Rights Reserved.
+		</div>
+			<script src="js/jquery.js"></script>
+		<script src="js/jquery-ui.js"></script>
+		<script>
+		
+		$( ".datepicker" ).datepicker({
+			dateFormat: "yy-mm-dd"
+		});
+		
+		</script>		
+	</body>
+</html>
